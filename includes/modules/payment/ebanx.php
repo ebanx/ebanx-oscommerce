@@ -314,6 +314,7 @@ class ebanx
                     ,'card_due_date' => $_POST['cc_expires']
                     ,'card_cvv'      => $_POST['cc_cvv']
                 )
+                , 'plugin_source'	 => 'osCommerce ver. ' . tep_get_version()
             )
         );
         //Finally submits the order

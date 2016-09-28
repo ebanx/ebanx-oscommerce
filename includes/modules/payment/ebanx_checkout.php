@@ -182,6 +182,7 @@ class ebanx_checkout
             , 'country'           => $country
             , 'zipcode'           => $order->billing['postcode']
             , 'phone_number'      => $order->customer['telephone']
+            , 'plugin_source'	 => 'osCommerce ver. ' . tep_get_version()
             )
         ); 
 
